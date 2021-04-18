@@ -6,4 +6,4 @@ function disemvowel(str) {
 
 const troll = prompt("Do your worst Troll!");
 
-alert(disemvowel(troll) + ` HAHAHA You've been disemvoweled!🤣`);
+alert(disemvowel(troll) + ` HAHAHA You've been disemvoweled Sucker!🤣`);
