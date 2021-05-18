@@ -52,6 +52,43 @@ const restaurant = {
     console.log(otherIngredients);
   },
 };
+
+/*const ordersSet = new Set([
+  'Pasta',
+  'Pizza',
+  'Pizza',
+  'Risotto',
+  'Pasta',
+  'Pasta',
+]);
+console.log(ordersSet);
+
+console.log(new Set('Jonas'));
+
+console.log(ordersSet.size);
+console.log(ordersSet.has('Pizza'));
+console.log(ordersSet.has('Bread'));
+ordersSet.add('Garlic Bread');
+ordersSet.add('Garlic Bread');
+ordersSet.delete('Risotto');
+console.log(ordersSet);
+
+for (const order of ordersSet) console.log(order);
+
+// Example
+
+const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter'];
+const staffUnique = [...new Set(staff)];
+console.log(staffUnique);
+console.log(
+  new Set(['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter']).size
+);
+
+console.log(new Set('claytonliggett').size);
+
+//sets are not intended to replace arrays////
+
+///////////////////////////////////////////////////////
 // Coding Challenge #2
 
 /* 
@@ -70,7 +107,7 @@ BONUS: Create an object called 'scorers' which contains the names of the players
         Lewandowski: 2
       }
 GOOD LUCK 😀
-*/
+
 const game = {
   team1: 'Bayern Munich',
   team2: 'Borrussia Dortmund',
